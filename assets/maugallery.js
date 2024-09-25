@@ -247,8 +247,7 @@
       $(".gallery-item").each(function() {
         $(this)
           .parents(".item-column")
-          .hide();
-          
+          .hide(); 
         if (tag === "all") {
           $(this)
             .parents(".item-column")
