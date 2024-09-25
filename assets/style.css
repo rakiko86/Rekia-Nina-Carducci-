@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap");
 body {
 	max-width: 1920px;
 	margin: auto;
@@ -62,6 +63,10 @@ body {
 	width: 100%;
 	height: auto;
 }
+img{
+	max-width: 100%;
+	height: auto;
+}
 #about-me {
 	flex: 2
 }
@@ -79,9 +84,6 @@ body {
 #about-me p {
 	width: 80%;
 	font-size: 14px;
-}
-#gallery {
-	min-height: 100vh;
 }
 .title {
 	text-align: center;
