@@ -20,10 +20,13 @@ body {
 	padding-inline: 100px;
 	padding-block: 30px;
 	align-items: center;
+	
 }
 
 .top-header .name {
 	font-size: 26px;
+	text-decoration: none;
+	color: #000;
 }
 
 .nav ul {
@@ -114,8 +117,8 @@ img {
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-	color: #fff;
-	background-color: #1C6474;
+	color:#000;
+	background-color:#BEB45A;
 	border-radius: 0;
 }
 
